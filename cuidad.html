@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registros|ciudad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/bb0926f36c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styleforms.css">
+</head>
+<body>
+    <header>
+        <img src="imagenes/pollos.png" class="logo">
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">&#8801</label>
+        <nav class="menu">
+                <a href="index.html"><i class="fa-solid fa-house-chimney" id="botones"></i></a>
+                <a href="registros.html">registros</a>
+                <a href="productos.html">productos</a>
+                <a href="tipoproducto.html">tipo producto</a>
+                <a href="ventas.html">ventas</a>
+                <a href="clientes.html">clientes</a>
+                <a href="provedores.html">provedores</a>
+                <a href="cuidad.html">cuidad</a>
+                <a href="tipodocumento.html">tipo documento</a>
+                <a href="vendedor.html">vendedor</a>
+    
+            <label for="check" class="esconder-menu">&#215</label>
+        </nav>
+    </header>
+    <form action="insertarciudad.php" method="post">
+        
+        <a href="index.html"><img src="imagenes/pollos.png" class="logoform"></a>
+        <h1>INSERTE CIUDAD</h1>
+        <input type="text" name="ciu" placeholder="Ciudad" required>
+        <div class="botonera">
+        <input type="submit" id="bot1" value="ENVIAR">
+        <input type="reset" id="bot2" value="BORRAR">
+        </div>
+    </form>
+</body>
+</html>
